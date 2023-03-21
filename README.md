@@ -17,8 +17,9 @@ En el van a encontrar tanto material teórico y enlaces a documentos, como códi
 
 ### Links importantes:
 
-[Planilla usuarios de github](https://docs.google.com/spreadsheets/d/13eHHNfB08sL8hT5Z-6Wdxue1K9kQIzsRSIQlFTzvIq8/edit#gid=0)
-[Link al grupo de wpp para dudas](https://chat.whatsapp.com/JRevaKfjoeqHksFfZhOpny)
+- [Planilla usuarios de github](https://docs.google.com/spreadsheets/d/13eHHNfB08sL8hT5Z-6Wdxue1K9kQIzsRSIQlFTzvIq8/edit#gid=0)
+
+- [Link al grupo de wpp para dudas](https://chat.whatsapp.com/JRevaKfjoeqHksFfZhOpny)
 ---
 
 ### Herramientas necesarias para este curso
