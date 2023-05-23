@@ -1,0 +1,25 @@
+<p>example-component works!</p>
+
+<br/>
+<br/>
+<p>Pegarle al backend</p>
+<button type="button" class="btn btn-primary" (click)="callBackend()">Pegar al back</button>
+
+<br />
+<br />
+
+<div *ngIf="showLoadedMovies; else elseBlock">
+  <div *ngFor="let movie of movies">
+    <span>Id: {{ movie.id }}, </span>
+    <span>Name: {{ movie.name }}</span>
+  </div>
+
+  <br />
+  <br />
+
+  <span>Se cargaron las pelis :)</span>
+</div>
+
+<ng-template #elseBlock>
+  <span>No se cargaron aun las pelis</span>
+</ng-template>

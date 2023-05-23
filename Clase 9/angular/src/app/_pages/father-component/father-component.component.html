@@ -1,0 +1,28 @@
+<h2> Ejemplo de data-binding </h2>
+
+<br/>
+
+<h3>father-component</h3>
+
+<br />
+
+<b>{{ propertyFromFather }}</b>
+<button (click)="changePropertyFromFather()">Cambiar propiedad desde el padre</button>
+<br />
+
+<br />
+<br />
+
+
+Desde el hijo: <b>{{ propertyFromSon }}</b>
+
+<br />
+<br />
+
+<hr/>
+
+<app-son
+  message="Esto viene del padre (mas sencillo)"
+  [messageProp]="propertyFromFather"
+  (emitterFromSon)="eventFromSon($event)">
+</app-son>
